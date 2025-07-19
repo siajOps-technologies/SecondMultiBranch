@@ -4,7 +4,7 @@ pipeline {
     stage('Hello') {
       steps {
         echo "Hello from Organization 2 Jenkinsfile - I am from ${env.BRANCH_NAME}"
-        echo "Testing PR"
+        echo "PR works fine"
       }
     }
 
